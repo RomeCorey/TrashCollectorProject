@@ -83,3 +83,6 @@ C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\Tra
 C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.role.resources
 C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.csproj.GenerateResource.Cache
 C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.201801091401190_deletedCustomerDay.resources
+C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.EmployeeAddedAttributes.resources
+C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.updatedEmployeeModelandView.resources
+C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.updateEmployeeDatabaseInfo.resources

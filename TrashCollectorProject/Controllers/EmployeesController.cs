@@ -10,7 +10,6 @@ using TrashCollectorProject.Models;
 
 namespace TrashCollectorProject.Controllers
 {
-    [Authorize]
     public class EmployeesController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
@@ -47,7 +46,7 @@ namespace TrashCollectorProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "EmployeeId")] Employee employee)
+        public ActionResult Create([Bind(Include = "EmployeeId,UserName,UserPassword,City,Zip")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +78,7 @@ namespace TrashCollectorProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "EmployeeId")] Employee employee)
+        public ActionResult Edit([Bind(Include = "EmployeeId,UserName,UserPassword,City,Zip")] Employee employee)
         {
             if (ModelState.IsValid)
             {

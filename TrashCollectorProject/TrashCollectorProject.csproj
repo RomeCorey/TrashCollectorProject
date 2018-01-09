@@ -216,6 +216,18 @@
     <Compile Include="Migrations\201801091401190_deletedCustomerDay.Designer.cs">
       <DependentUpon>201801091401190_deletedCustomerDay.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801091535425_EmployeeAddedAttributes.cs" />
+    <Compile Include="Migrations\201801091535425_EmployeeAddedAttributes.Designer.cs">
+      <DependentUpon>201801091535425_EmployeeAddedAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801091543227_updatedEmployeeModelandView.cs" />
+    <Compile Include="Migrations\201801091543227_updatedEmployeeModelandView.Designer.cs">
+      <DependentUpon>201801091543227_updatedEmployeeModelandView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801091553386_updateEmployeeDatabaseInfo.cs" />
+    <Compile Include="Migrations\201801091553386_updateEmployeeDatabaseInfo.Designer.cs">
+      <DependentUpon>201801091553386_updateEmployeeDatabaseInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -290,12 +302,12 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Edit.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\User\UserView.cshtml" />
     <Content Include="Views\Employees\Create.cshtml" />
     <Content Include="Views\Employees\Delete.cshtml" />
     <Content Include="Views\Employees\Details.cshtml" />
     <Content Include="Views\Employees\Edit.cshtml" />
     <Content Include="Views\Employees\Index.cshtml" />
-    <Content Include="Views\User\UserView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -317,6 +329,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801091401190_deletedCustomerDay.resx">
       <DependentUpon>201801091401190_deletedCustomerDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091535425_EmployeeAddedAttributes.resx">
+      <DependentUpon>201801091535425_EmployeeAddedAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091543227_updatedEmployeeModelandView.resx">
+      <DependentUpon>201801091543227_updatedEmployeeModelandView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091553386_updateEmployeeDatabaseInfo.resx">
+      <DependentUpon>201801091553386_updateEmployeeDatabaseInfo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

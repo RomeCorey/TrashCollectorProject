@@ -13,7 +13,8 @@ namespace TrashCollectorProject.Controllers
     public class EmployeesController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
+        Employee employee;
+        
         // GET: Employees
         public ActionResult Index()
         {
@@ -123,5 +124,7 @@ namespace TrashCollectorProject.Controllers
             }
             base.Dispose(disposing);
         }
+
+       
     }
 }

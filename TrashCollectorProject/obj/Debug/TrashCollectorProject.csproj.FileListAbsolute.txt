@@ -87,3 +87,4 @@ C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\Tra
 C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.updatedEmployeeModelandView.resources
 C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.updateEmployeeDatabaseInfo.resources
 C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.Migrations.addedCustomerRemovalFee.resources
+C:\Users\Cortana\Documents\Visual Studio 2015\Projects\TrashCollectorProject\TrashCollectorProject\obj\Debug\TrashCollectorProject.csprojResolveAssemblyReference.cache

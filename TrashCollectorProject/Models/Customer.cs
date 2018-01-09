@@ -13,9 +13,7 @@ namespace TrashCollectorProject.Models
         [Display(Name = "Username")]
         public string UserName { get; set; }
         [Display(Name = "Password")]
-        public string UserPassword { get; set; }
-        [Display(Name = "Day of trash pickup")]
-        public int CustomerDay { get; set; }
+        public string UserPassword { get; set; }        
         [Display(Name = "Address")]
         public string StreetName { get; set; }
         public string City { get; set; }

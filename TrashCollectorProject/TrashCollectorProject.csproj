@@ -204,6 +204,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801081537483_InitialCreate.cs" />
+    <Compile Include="Migrations\201801081537483_InitialCreate.Designer.cs">
+      <DependentUpon>201801081537483_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801081721068_role.cs" />
+    <Compile Include="Migrations\201801081721068_role.Designer.cs">
+      <DependentUpon>201801081721068_role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801091401190_deletedCustomerDay.cs" />
+    <Compile Include="Migrations\201801091401190_deletedCustomerDay.Designer.cs">
+      <DependentUpon>201801091401190_deletedCustomerDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -294,6 +307,17 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801081537483_InitialCreate.resx">
+      <DependentUpon>201801081537483_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801081721068_role.resx">
+      <DependentUpon>201801081721068_role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801091401190_deletedCustomerDay.resx">
+      <DependentUpon>201801091401190_deletedCustomerDay.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

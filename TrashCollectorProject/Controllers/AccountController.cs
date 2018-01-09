@@ -17,6 +17,7 @@ namespace TrashCollectorProject.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        public ApplicationDbContext context;
 
         public AccountController()
         {

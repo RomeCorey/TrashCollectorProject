@@ -19,5 +19,6 @@ namespace TrashCollectorProject.Models
         public string City { get; set; }
         public int Zip { get; set; }
         public IEnumerable<string> DaysOfTheWeek { get; set; }
+        
     }
 }

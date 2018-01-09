@@ -21,5 +21,7 @@ namespace TrashCollectorProject.Models
         [Display(Name = "Day you want your trash picked up")]
         public string PickupDay { get; set; }
         public IEnumerable<string> DaysOfTheWeek { get; set; }
+        [Display(Name = "Removal Fee ($5 per pickup)")]
+        public int removalFee { get; set; }
     }
 }
